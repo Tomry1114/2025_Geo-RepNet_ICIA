@@ -1,1 +1,6 @@
+*.pdopt filter=lfs diff=lfs merge=lfs -text
 *.pdparams filter=lfs diff=lfs merge=lfs -text
+*.pdstates filter=lfs diff=lfs merge=lfs -text
+checkpoint/output_RegVGG/best_model.pdopt filter=lfs diff=lfs merge=lfs -text
+checkpoint/output_RegVGG/best_model.pdparams filter=lfs diff=lfs merge=lfs -text
+checkpoint/output_RegVGG/best_model.pdstates filter=lfs diff=lfs merge=lfs -text
