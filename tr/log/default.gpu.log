@@ -1,0 +1,15 @@
+index,uuid,driver_version,name,gpu_serial,display_active,display_mode
+0,GPU-c967ef6c-eee0-27e2-3ef0-1d94bec3ad31,550.107.02,NVIDIA GeForce RTX 4090,[N/A],Disabled,Disabled
+1,GPU-47364045-6f80-0d4e-f356-6e6436713984,550.107.02,NVIDIA GeForce RTX 4090,[N/A],Disabled,Disabled
+2,GPU-af3a4183-2ea1-ff77-9754-6eb839e0d6f2,550.107.02,NVIDIA GeForce RTX 4090,[N/A],Disabled,Disabled
+3,GPU-c1561944-bdd2-46a5-f659-b20a0cb823fb,550.107.02,NVIDIA GeForce RTX 4090,[N/A],Enabled,Enabled
+
+pid,process_name,gpu_uuid,gpu_name,used_memory
+178282,/home/ren6/miniconda3/envs/mmdep/bin/python3,GPU-c967ef6c-eee0-27e2-3ef0-1d94bec3ad31,NVIDIA GeForce RTX 4090,18174
+178283,/home/ren6/miniconda3/envs/mmdep/bin/python3,GPU-47364045-6f80-0d4e-f356-6e6436713984,NVIDIA GeForce RTX 4090,20272
+
+index,utilization_gpu,memory_total,memory_used,memory_free,timestamp
+0,97,24564,18204,6007,2025/06/13 18:31:12.983
+1,98,24564,20304,3907,2025/06/13 18:31:12.984
+2,0,24564,15,24197,2025/06/13 18:31:12.985
+3,20,24564,338,23871,2025/06/13 18:31:12.986
