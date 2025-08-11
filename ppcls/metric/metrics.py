@@ -77,7 +77,6 @@ class AucScore(AvgMetrics):
 
         except ValueError as e:
             if "Only one class present in y_true" in str(e):
-                # 可选：不打印这个正常情况
                 auc = 0.0
             else:
                 print(f"[Warning] AUC computation failed: {e}")
@@ -112,7 +111,7 @@ class F1Score(AvgMetrics):
         pred = x.argmax(axis=1).numpy()
         label = label.numpy()
 
-        # ✅ 将 one-hot 编码的 label 转为整数类别
+        # 将 one-hot 编码的 label 转为整数类别
         if label.ndim > 1 and label.shape[1] > 1:
             label = np.argmax(label, axis=1)
 
